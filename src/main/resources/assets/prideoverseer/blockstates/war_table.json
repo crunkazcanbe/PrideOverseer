@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "prideoverseer:war_table"
+  },
+  "facing=east": {
+   "model": "prideoverseer:war_table",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "prideoverseer:war_table",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "prideoverseer:war_table",
+   "y": 270
+  }
+ }
+}

@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle'
+
+version = "0.1.0"
+group = 'com.dogpound.prideoverseer'
+archivesBaseName = 'PrideOverseer-1.12.2'
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
+
+minecraft {
+    mappings channel: 'snapshot', version: '20171003-1.12'
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('mcmod.info') { expand 'version': project.version }
+}
+
+jar.finalizedBy('reobfJar')

@@ -1,0 +1,3 @@
+{ "type": "minecraft:crafting_shaped", "pattern": [" D ", " G ", " S "],
+  "key": { "D": {"item": "minecraft:diamond"}, "G": {"item": "minecraft:gold_ingot"}, "S": {"item": "minecraft:stick"} },
+  "result": {"item": "prideoverseer:command_baton"} }

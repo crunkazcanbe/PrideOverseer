@@ -1,0 +1,11 @@
+[{
+  "modid": "prideoverseer",
+  "name": "Pride Overseer",
+  "description": "Rise above your world like a strategy game: zoom out over your villages, click the little villagers and NPCs running around, and command them — move, follow, guard, patrol, go home, talk — with the same interactions you get up close. Works with vanilla villagers, golems, your pets and NPC mods (Ancient Warfare 2, Custom NPCs, MCA, Millénaire, ToroQuest).",
+  "version": "${version}",
+  "mcversion": "1.12.2",
+  "authorList": ["crunkazcanbe", "Claude"],
+  "credits": "Part of the Pride pack. Free and open source.",
+  "logoFile": "",
+  "dependencies": []
+}]

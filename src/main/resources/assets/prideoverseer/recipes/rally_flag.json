@@ -1,0 +1,3 @@
+{ "type": "minecraft:crafting_shaped", "pattern": [" GW", " IW", "SSS"],
+  "key": { "G": {"item": "minecraft:gold_nugget"}, "W": {"item": "minecraft:wool", "data": 32767}, "I": {"item": "minecraft:iron_ingot"}, "S": {"item": "minecraft:cobblestone"} },
+  "result": {"item": "prideoverseer:rally_flag", "count": 2} }
